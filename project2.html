@@ -1,0 +1,65 @@
+<header>
+    <h1 id="title">Survey Form</h1> 
+    <p id="description">Tell me a little about yourself</p>
+</header>
+
+<main>
+  <div id="form">
+    <form id="survey-form">
+    
+    <div class="d1">
+      <label for="name" id="name-label">Name</label> <br>
+      <input id="name" type="text" placeholder="John Smith" required>
+    </div>
+    
+    <div class="d2">
+      <label for="email" id="email-label">Email</label><br>
+      <input id="email" type="email" placeholder="example@mail.com" required>
+    </div>
+    
+    <div class="d3">
+      <label for="number" id="number-label">Age</label><br>
+      <input id="number" type="text" min="13" max="100" placeholder="23" pattern="\d*">
+    </div>
+    
+    <div class="d4">
+      <label for="dropdown">Favorite Emoji</label> <br>
+      <select  id="dropdown">
+        <option value="Laugh">😂</option>
+        <option value="Smile">😊</option>
+        <option value="SmileTeeth">😁</option>
+      </select>
+  </div>
+    
+  <div class="d5">
+    <p>Favorite Sport</p>
+    <label for ="rbbasketball">Basketball</label>
+    <input id="rbbasketball" type="radio" name="rb" value="bask">
+    <label for ="baseball">Baseball</label>
+    <input id="baseball" type="radio" name="rb" value="basb">
+    <label for ="rbsoccer">Soccer</label>
+    <input id="rbsoccer" type="radio" name="rb" value="scr">
+  </div>
+    
+  <div class="d6">
+    <p>Greatest Education Achievement</p>
+    <label for="chna">None</label>
+    <input id="chna" type="checkbox" value="None">
+    <label for="chhs">High-School</label>
+    <input id="chhs" type="checkbox" value="HS">
+    <label for="chcl">College Degree</label>
+    <input id="chcl" type="checkbox" value="CDegree">
+  </div>
+    
+  <div class="d7">
+    <label for="acmts">Additional Comments</label>
+    <br>
+    <textarea id="acmts" rows="4" cols="50"></textarea>
+  </div>
+    
+    <div class="d8">
+      <button type="submit">Submit</button>
+     </div>
+    
+   </div>
+</main>
