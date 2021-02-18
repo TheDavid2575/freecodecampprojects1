@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("https://i.pinimg.com/originals/9a/27/54/9a2754542eb3f48e6038a4a616c9257b.jpg")
+  
+}
+
+header {
+  margin: auto;
+  display: grid;
+  background-color: rgb(220,220,220);
+  height: 150px;
+  width: 400px;
+  text-align: center;
+  border: solid;
+}
+
+#title {
+  font-size: 45px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+#form {
+  position: relative;
+  top: 5px;
+  margin: auto;
+  background-color: transparent;
+  width: 800px;
+  height: 960px;
+}
+
+#survey-form {
+}
+
+.d1{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: left;
+  font-size: 30px;
+}
+
+.d2{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: right;
+}
+
+.d3{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: left;
+}
+
+.d4{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: right;
+}
+
+.d5{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: left;
+}
+
+.d6{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: right;
+}
+
+.d7{
+  background:PaleTurquoise;
+  width: 450px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: left;
+}
+
+.d8{
+  background:PaleTurquoise;
+  width: 60px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  margin: 5px;
+  float: right;
+  position: relative;
+  top: 40px;
+  right: 100px;
+}
